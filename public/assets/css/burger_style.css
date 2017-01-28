@@ -29,6 +29,17 @@ label {
     font-size: 24px;
 }
 
+.wrapper {
+    background: rgba(207, 235, 234, 1);
+    background: -moz-linear-gradient(top, rgba(207, 235, 234, 1) 0%, rgba(147, 206, 222, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(207, 235, 234, 1)), color-stop(100%, rgba(147, 206, 222, 1)));
+    background: -webkit-linear-gradient(top, rgba(207, 235, 234, 1) 0%, rgba(147, 206, 222, 1) 100%);
+    background: -o-linear-gradient(top, rgba(207, 235, 234, 1) 0%, rgba(147, 206, 222, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(207, 235, 234, 1) 0%, rgba(147, 206, 222, 1) 100%);
+    background: linear-gradient(to bottom, rgba(207, 235, 234, 1) 0%, rgba(147, 206, 222, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#cfebea', endColorstr='#93cede', GradientType=0);
+}
+
 .orange {
     color: #F49E18;
 }
