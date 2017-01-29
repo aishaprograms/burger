@@ -15,6 +15,8 @@ Visit the Heroku app:
 ## Understand
 Whenever a user submits a burger's name, this app will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page. This app stores every burger in a database, whether devoured or not.
 
+![Screenshot of website](/public/assets/img/burger_screenshot.png)
+
 ### Prerequisites
 
 What to install and how for local development and testing purposes (included in package.json file)
